@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+#navbar {
+    position: sticky;
+    top: 0.5rem;
+}
+
 #navbar ul {
     display: flex;
     flex-direction: row;
@@ -28,7 +33,11 @@ a {
 
 #navbar li {
     margin: 1rem 2rem 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
+}
+
+#navbar ul li a:hover {
+    color: #88c7e8;
 }
 
 #sectionOne {
@@ -59,6 +68,31 @@ a {
 
 }
 
+#my-girl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(136, 199, 232);
+    padding: 2rem;
+}
+
+#my-girl a {
+    color: rgb(136, 199, 232);
+    padding-left: 3rem;
+}
+
+#my-girl a:hover {
+    transform: scaleX(-1);
+}
+
+
+.image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+a:hover .image {}
+
 .social {
     margin: 2rem;
     display: flex;
@@ -75,4 +109,78 @@ a {
         sans-serif;
     font-size: 1rem;
     color: rgb(212, 166, 65);
+}
+
+#blog {
+    margin: 1rem;
+    padding: 0.5rem;
+    color: rgb(212, 166, 65);
+}
+
+#one {
+    background-color: bisque;
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(27, 27, 27);
+}
+
+#food-blog {
+    margin: 3rem;
+    width: 400px;
+}
+
+#food-blog :nth-child(2) {
+    color: darkblue;
+    padding: 1rem;
+}
+
+#food-blog :nth-child(3) {
+    color: darkcyan;
+    padding: 1rem;
+}
+
+#food-blog :nth-child(4) {
+    color: darkblue;
+    padding: 1rem;
+}
+
+#food-blog :nth-child(5) {
+    color: darkcyan;
+    padding: 1rem;
+}
+
+#thing-do {
+    margin: 3rem;
+    width: 400px;
+}
+
+#thing-do :nth-child(2) {
+    color: darkblue;
+    padding: 1rem;
+}
+
+#thing-do :nth-child(3) {
+    color: darkcyan;
+    padding: 1rem;
+}
+
+#thing-do :nth-child(4) {
+    color: darkblue;
+    padding: 1rem;
+}
+
+#thing-do :nth-child(5) {
+    color: darkcyan;
+    padding: 1rem;
+}
+
+#thing-do :nth-child(6) {
+    color: darkblue;
+    padding: 1rem;
+}
+
+#underMainPicText {
+    padding: 2rem;
 }
