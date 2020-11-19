@@ -111,6 +111,10 @@ a:hover .image {}
     color: rgb(212, 166, 65);
 }
 
+.home-go {
+    color: #rgb(136, 199, 232);
+}
+
 #blog {
     margin: 1rem;
     padding: 0.5rem;
