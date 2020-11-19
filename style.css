@@ -1,4 +1,78 @@
- #background {
-     height: 100vh;
-    background: url('/javasmuse.github.io/resources/background.jpg') no-repeat center center/cover;
- }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #103649;
+    font-size: medium;
+    line-height: 1.6;
+}
+
+a {
+    color: rgb(212, 166, 65);
+    text-shadow: 0.015rem 0.005rem white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 3rem;
+    padding: 1rem;
+}
+
+#navbar li {
+    margin: 1rem 2rem 1rem;
+    padding: 1rem;
+}
+
+#sectionOne {
+    font-family: "Dancing Script", cursive;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(206, 174, 160);
+}
+
+#subSecOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+}
+
+#subSecOne ul li {
+    padding: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    list-style: none;
+    align-self: end;
+
+}
+
+.social {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: rgb(212, 166, 65);
+}
+
+#fillerText {
+    margin: 1rem 5rem 1rem 5rem;
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 1rem;
+    color: rgb(212, 166, 65);
+}
