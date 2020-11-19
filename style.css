@@ -1,5 +1,5 @@
 body {
-    background-image: url("/javasmuse.github.io/resources/background.jpg")
+    background-image: url("/javasmuse.github.io/resources/background.jpg");
    background-attachment: fixed;
    background-size: cover; 
    z-index: -1;
