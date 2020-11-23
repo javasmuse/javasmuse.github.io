@@ -82,6 +82,35 @@ a {
 
 }
 
+@media (max-width: 800px) {
+    #sectionOne {
+        font-family: "Dancing Script", cursive;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: rgb(206, 174, 160);
+    }
+
+    #underMainPicText {
+        font-size: 0.9rem;
+        margin: 0.25rem;
+    }
+
+    #main-pic {
+        margin: 1rem 0 1 rem 0;
+    }
+
+    #food-list {
+        display: none;
+    }
+
+    #things-list {
+        display: none;
+    }
+}
+
 #my-girl {
     display: flex;
     flex-direction: row;
