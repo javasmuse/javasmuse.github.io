@@ -18,7 +18,7 @@ a {
 }
 
 #navbar {
-    position: sticky;
+    position: relative;
     top: 0.5rem;
 }
 
@@ -38,6 +38,20 @@ a {
 
 #navbar ul li a:hover {
     color: #88c7e8;
+}
+
+@media (max-width: 800px) {
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        list-style: none;
+
+    }
+
+    #navbar li {
+        margin: 0.005px
+    }
 }
 
 #sectionOne {
@@ -81,6 +95,15 @@ a {
     padding-left: 3rem;
 }
 
+@media (max-width: 800px) {
+    #my-girl a {
+        color: rgb(136, 199, 232);
+        font-family: "Arial", sans-serif;
+        font-size: 0.25rem;
+        padding-left: 3rem;
+    }
+}
+
 #my-girl a:hover {
     transform: scaleX(-1);
 }
@@ -101,6 +124,18 @@ a:hover .image {}
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     color: rgb(212, 166, 65);
+}
+
+@media (max-width: 800px) {
+    .social {
+        margin: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: "Arial", sans-serif;
+        font-size: 0.5rem;
+        color: rgb(212, 166, 65);
+    }
 }
 
 #fillerText {
@@ -129,6 +164,19 @@ a:hover .image {}
     justify-content: space-around;
     color: rgb(27, 27, 27);
 }
+
+@media (max-width: 800px) {
+    #one {
+        background-color: bisque;
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        color: rgb(27, 27, 27);
+    }
+}
+
 
 #food-blog {
     margin: 3rem;
