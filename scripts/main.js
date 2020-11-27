@@ -5,6 +5,6 @@ let response = fetch('https://api.windy.com/api/webcams/v2/list/category=beach/c
     console.log(data.name);
 
 }).catch((err) => {
-    console.log(err);
+    console.log(error);
 
 });
